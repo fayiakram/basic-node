@@ -1,8 +1,12 @@
+const MamaliaService = require(`../service/mamalia.service`)
 class MamaliaController {
-    constructor(mamaliaService) {
+    constructor() {
         this.mamaliaService = new MamaliaService();
     }
     getSound() {
         this.mamaliaService.getSound();
     }
 }
+
+
+module.exports = MamaliaController
