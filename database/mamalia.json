@@ -1,7 +1,12 @@
 [
-    {
-        "name": "Sapi",
-        "type": "Mamalia",
-        "habitat": "Peternakan"
-    }
+  {
+    "name": "Sapi",
+    "type": "Mamalia",
+    "habitat": "Peternakan"
+  },
+  {
+    "name": "Lumba-Lumba",
+    "type": "Mamalia",
+    "habitat": "Laut"
+  }
 ]
