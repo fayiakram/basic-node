@@ -6,6 +6,14 @@ class MamaliaController {
     getSound() {
         this.mamaliaService.getSound();
     }
+
+    async getAll() {
+        return await this.mamaliaService.getAll()
+    }
+
+    async store(body) {
+        await this.mamaliaService.store(body)
+    }
 }
 
 

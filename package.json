@@ -4,7 +4,9 @@
   "description": "latihanNode",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fayiakram/basic-node/issues"
   },
-  "homepage": "https://github.com/fayiakram/basic-node#readme"
+  "homepage": "https://github.com/fayiakram/basic-node#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
