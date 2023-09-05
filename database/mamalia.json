@@ -8,5 +8,15 @@
     "name": "Lumba-Lumba",
     "type": "Mamalia",
     "habitat": "Laut"
+  },
+  {
+    "name": "Lumba-Lumba",
+    "type": "Mamalia",
+    "habitat": "Laut"
+  },
+  {
+    "name": "Domba",
+    "type": "Mamalia",
+    "habitat": "Darat"
   }
 ]
