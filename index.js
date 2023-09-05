@@ -4,7 +4,7 @@ const MamaliaController = require(`./class/controllers/mamalia.controller`)
 // ini import module HTTP
 const http = require("http")
 // const url = require("url")
-const { parse } = require("querystring")
+// const { parse } = require("querystring")
 
 const server = http.createServer(async (req, res) => {
     const method = req.method;
@@ -36,7 +36,7 @@ const server = http.createServer(async (req, res) => {
                 } catch (error) {
                     // Handle parsing errors or other issues
                     res.writeHead(400, { 'Content-Type': 'text/plain' });
-                    res.end('Error parsing JSON data');
+                    res.end(error.message);
                 }
             });
             break;
